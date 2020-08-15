@@ -30,7 +30,7 @@ body{
 
 /* Header section */
 .logo{
-	font-size: 3.5rem;
+	font-size: 5rem;
 	margin-left: 20px;
 	font-weight: bolder;
 	color: white;
@@ -606,7 +606,7 @@ p{
 }
 
 .btn-purple:hover{
-    background-color: #56247f;
+    background-color: goldenrod;
 }
 .dots{
     font-size: 2.4rem;
