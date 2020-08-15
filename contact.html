@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US</title>
+    <link rel="stylesheet" href="./static/style.css">
+    <!---------------FONTAWESOME CDN--------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="contact" id="contacts">
+        <div class="container">
+            <h5 class="section-head">
+                <span class="heading">CONTACT US</span>
+                <span class="sub-heading">Get in touch with us</span>
+            </h5>
+            <div class="contact-content">
+                <div class="traveler-wrap">
+                    <img class="image-fluid" src="https://images.pexels.com/photos/154161/pexels-photo-154161.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                </div>
+                <form action="/submit-data" method="POST" class="form contact-form">
+                 <div class="input-group-wrap">
+                     <div class="input-group">
+                         <input type="text" class="input" placeholder="Name" name="name" required>
+                         <span class="bar"></span>
+                     </div>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" class="input" name="email" placeholder="Email">
+                        <span class="bar"></span>
+                    </div>
+                    <div class="input-group">
+                        <textarea class="input" cols="30" rows="8" name="mssg" placeholder="Message"></textarea>
+                        <span class="bar"></span>
+                    </div>
+                    <button type="submit" class="btn-form-btn btn-purple">Send
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
