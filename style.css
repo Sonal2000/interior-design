@@ -269,7 +269,8 @@ body{
 	width: 73%;
 	height: 250px;
 	transform: rotate(0deg);
-	margin-left: 40px;
+	margin-left: 28px;
+	padding: 16px;
 	margin-top: 30px;
 	opacity: .8;
 }
