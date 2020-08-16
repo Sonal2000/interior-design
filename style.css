@@ -251,9 +251,7 @@ body{
 
 
 /*--------ABOUT-------*/
-#about{
-	margin-top: 90px;
-}
+
 .about-left{
 	width: 25%;
 	height: 320px;
@@ -1051,4 +1049,13 @@ p{
 	height: 50px;
 	background-color: black;
 
+}
+
+
+#about{
+  width: 80%;
+  overflow: hidden;
+}
+section{
+  width: 100%;
 }
