@@ -168,7 +168,7 @@ body{
     height: 518px;
 }
 #hero::before{
-            background: url("./static/p1.jpg") no-repeat;
+            background: url("imgg/p1.jpg") no-repeat;
             opacity: 0.8;
             content: '';
             position: absolute;
@@ -746,7 +746,7 @@ body{
   height: auto;
   min-height: 250px;
   margin:auto;
-  background-image: url(8.jpg);
+  background-image: url(imgg/8.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -973,7 +973,7 @@ body{
 }
 .top-img{
   position: absolute;
-  background: url(top-divder.png);
+  background: url(imgg/top-divder.png);
   top: -20px;
   left: 0px;
   width: 100%;
