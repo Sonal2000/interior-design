@@ -168,7 +168,7 @@ body{
     height: 518px;
 }
 #hero::before{
-            background: url("imgg/p1.jpg") no-repeat;
+            background: url("./static/p1.jpg") no-repeat;
             opacity: 0.8;
             content: '';
             position: absolute;
@@ -286,7 +286,7 @@ body{
 	display: inline-block;	
 }
 .htagg{
-	font-size: 4rem;
+	font-size: 40px;
 	font-weight: bolder;
 	color: goldenrod;
 	text-decoration: underline; 	
@@ -407,7 +407,7 @@ body{
       }
      .tab-content{
          padding: 15px;
-         background-image: url("imgg/8.jpg");
+         background-image: url("8.jpg");
         
      } 
      .tab-content .row .col-md-3{
@@ -524,7 +524,8 @@ body{
 		width: 90%;
 		display: flex;
 		flex-direction: column;
-	}
+    }
+   
 	
 }
 
@@ -629,7 +630,7 @@ body{
     font-weight: 300;
     color: #a5a5a5;
 }
-.grid{
+/* .grid{
     display: grid;
     grid-gap: 2.5rem;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
@@ -646,15 +647,15 @@ body{
     height: 100%;
     object-fit: cover;
 
-}
-.contact-content{
+} */
+/* .contact-content{
     display: flex;
     justify-content: center;
 
-}
+} */
 .contact-form{
     width: 100%;
-    background-image: var(--gradient-color);
+    background-color: #333333;
     padding: 2.5rem;
 
 }
@@ -745,7 +746,7 @@ body{
   height: auto;
   min-height: 250px;
   margin:auto;
-  background-image: url(imgg/8.jpg);
+  background-image: url(8.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -838,10 +839,12 @@ body{
 .footer-heading{
    width: 100%;
   height: auto;
+  color: white;
   margin: auto;
 }
 .footer-headingg{
   width: 100%;
+  color: white;
  height: auto;
  margin: auto;
 }
@@ -970,7 +973,7 @@ body{
 }
 .top-img{
   position: absolute;
-  background: url(imgg/top-divder.png);
+  background: url(top-divder.png);
   top: -20px;
   left: 0px;
   width: 100%;
@@ -1002,6 +1005,7 @@ h1 span{
   .footer-social-icons ul li{
     margin-bottom: 5px;
   }
+
 }
 
 
@@ -1051,11 +1055,17 @@ p{
 
 }
 
-
 #about{
   width: 80%;
   overflow: hidden;
 }
 section{
   width: 100%;
+}
+
+@media screen and (max-width:768px)
+{
+    .htagg{
+        font-size: 100px;
+    }
 }
